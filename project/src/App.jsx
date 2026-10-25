@@ -1,10 +1,10 @@
 import { useRef, useState } from "react";
-import Landing from "./Components/Landing";
-import { Report, Success, MyComplaints, Detail, PublicDashboard, Drafts } from "./Components/citizen";
-import { Overview, Assigned, Escalation } from "./Components/official";
-import { CitizenShell, OfficialShell } from "./Components/ui";
-import { useTheme } from "./Components/theme";
-import { complaints } from "./Components/data";
+import Landing from "./Components/Landing.jsx";
+import { Report, Success, MyComplaints, Detail, PublicDashboard, Drafts } from "./Components/citizen.jsx";
+import { Overview, Assigned, Escalation } from "./Components/official.jsx";
+import { CitizenShell, OfficialShell } from "./Components/ui.jsx";
+import { useTheme } from "./Components/theme.js";
+import { complaints } from "./Components/data.js";
 
 const STORAGE_KEY = "civicsync.complaints";
 const DRAFTS_KEY = "civicsync.drafts";
